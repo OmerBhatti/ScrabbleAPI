@@ -2,7 +2,7 @@ const http = require('http');
 const fs= require('fs');
 const port = process.env.PORT || 3000;
 
-const accessURL = 'http://localhost:8080';
+const accessURL = 'https://apiscrabble.herokuapp.com/';
 const requestListener = function (req, res) 
 {
   if (req.method == 'POST') {
@@ -77,6 +77,10 @@ const requestListener = function (req, res)
       ]
     }
 
+
+  DEVELOPER : M OMER BHATTI
+  Github : "https://github.com/omerbhatti"
+  WEBSITE : "https://omerbhatti.me"
     `);
   }
 }
