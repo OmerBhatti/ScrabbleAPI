@@ -68,7 +68,10 @@ const requestListener = function (req, res)
     })
     .then(res => res.json())
     .then(data => console.log(data));
-    
+  
+  CURL:\n
+    curl --header "Content-Type: application/json" -XPOST --data '{"abcd",3,5}' https://apiscrabble.herokuapp.com
+        
   RESPONSE:
     {
       "count": 20,
