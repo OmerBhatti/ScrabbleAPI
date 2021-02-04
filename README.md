@@ -11,6 +11,10 @@ JAVASCRIPT (Fetch):
     .then(res => res.json())
     .then(data => console.log(data));
 
+CURL:
+
+    curl --header "Content-Type: application/json" -XPOST --data '{"abcd",3,5}' https://apiscrabble.herokuapp.com
+        
 RESPONSE:
 
     {
