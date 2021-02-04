@@ -70,7 +70,7 @@ const requestListener = function (req, res)
     .then(data => console.log(data));
   
   CURL:\n
-    curl -X POST https://apiscrabble.herokuapp.com/ -H "Content-Type: application/json" -d "[\"abcd\",3,5]"
+    curl -X POST https://apiscrabble.herokuapp.com/ -H "Content-Type: application/json" -d "[\\"abcd\\",3,5]"
         
   RESPONSE:
     {
