@@ -13,7 +13,7 @@ JAVASCRIPT (Fetch):
 
 CURL:
 
-    curl --header "Content-Type: application/json" -XPOST --data '{"abcd",3,5}' https://apiscrabble.herokuapp.com
+    curl -X POST https://apiscrabble.herokuapp.com/ -H "Content-Type: application/json" -d "[\"abcd\",3,5]"
         
 RESPONSE:
 
