@@ -3,7 +3,7 @@
 <pre>
 JAVASCRIPT (Fetch):
 
-    fetch("https://github.com/omerbhatti",
+    fetch("https://apiscrabble.herokuapp.com/",
     { 
         method: "POST",
         body: JSON.stringify(["abcd",3,5])
