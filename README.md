@@ -3,7 +3,7 @@
 <pre>
 JAVASCRIPT (Fetch):
 
-    fetch('${accessURL}',
+    fetch("https://github.com/omerbhatti",
     { 
         method: "POST",
         body: JSON.stringify(["abcd",3,5])
