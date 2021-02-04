@@ -98,8 +98,8 @@ const getFile = (fileName)=>{
 }
 
 const containLetters = (word,word2)=>{      
-  for (var i = 0; i < word.length; i++){
-      if (!word2.includes(word[i])){
+  for (var i = 0; i < word2.length; i++){
+      if (!word.includes(word2[i])){
           return false;
       }
   }
