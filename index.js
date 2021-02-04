@@ -1,5 +1,6 @@
 const http = require('http');
 const fs= require('fs');
+const port = process.env.PORT || 3000;
 
 const accessURL = 'http://localhost:8080';
 const requestListener = function (req, res) 
@@ -81,7 +82,7 @@ const requestListener = function (req, res)
 }
 
 const server = http.createServer(requestListener);
-server.listen(8080);
+server.listen(port);
 console.log("Listening...");
 
 const getFile = (fileName)=>{
